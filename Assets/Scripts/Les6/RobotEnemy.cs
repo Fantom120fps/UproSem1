@@ -23,8 +23,5 @@ public class RobotEnemy : MonoBehaviour, IEnemy
         rb.velocity = Vector3.forward * _dist;    
     }
 
-    public void Attack()
-    {
-        Debug.Log("Держу!!!! Бегу!!!!");
-    }
+    
 }

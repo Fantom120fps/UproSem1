@@ -1,5 +1,5 @@
 
-public interface IBuildingBlock
+public interface IBuildingBlock 
 {
     void ColorReset();
     void DestroyBlock();

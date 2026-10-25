@@ -1,4 +1,4 @@
 public interface ILetter 
 {
-    void MousHovered(); 
+    void MouseHovered();
 }

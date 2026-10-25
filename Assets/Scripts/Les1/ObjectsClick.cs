@@ -12,11 +12,12 @@ public class ObjectsClick : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
-                if (hit.collider.GetComponent<ILetter>() != null)
-                {
-                    hit.collider.GetComponent<ILetter>().MousHovered();
-                }
+                
+                    hit.collider.GetComponent<ILetter>()?.MouseHovered();
+                
             }
         }
     }
 }
+
+

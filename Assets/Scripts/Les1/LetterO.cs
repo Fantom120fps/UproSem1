@@ -1,26 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 
-public class LetterO : MonoBehaviour, ILetter
+public class LetterO : MonoBehaviour
 {
-    private Renderer rend;
-    private Color currentColor;
-
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        rend = GetComponent<Renderer>();
-        currentColor = rend.material.color;
+        
     }
-    public void MousHovered()
+
+    // Update is called once per frame
+    void Update()
     {
-        Sequence sequence = DOTween.Sequence();
-
-        sequence.Append(rend.material.DOColor(Random.ColorHSV(), 1f));
-        sequence.AppendInterval(2);
-        sequence.Append(rend.material.DOColor(currentColor, 1f));
-
-        sequence.Play();
+        
     }
 }

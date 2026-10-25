@@ -13,7 +13,7 @@ public class LetterR : MonoBehaviour, ILetter
         rend = GetComponent<Renderer>();
         currentColor = rend.material.color;
     }
-    public void MousHovered()
+    public void MouseHovered()
     {
         Sequence sequence = DOTween.Sequence();
 
@@ -24,3 +24,5 @@ public class LetterR : MonoBehaviour, ILetter
         sequence.Play();
     }
 }
+
+

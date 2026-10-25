@@ -346,7 +346,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 51072811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3370de90fe14f14db4038a1db5cd750, type: 3}
+  m_Script: {fileID: 11500000, guid: d624e5625b3c58d419e1e2fffbe33fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &270932975
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 270932975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cf133ecdfb58b418770586219df991, type: 3}
+  m_Script: {fileID: 11500000, guid: 70c1164ef6530594d9f4b3615aac8736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &485292286
@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 1224848804}
   - component: {fileID: 1224848803}
   - component: {fileID: 1224848802}
+  - component: {fileID: 1224848806}
   m_Layer: 0
   m_Name: "\u0426\u0438\u043B\u0438\u043D\u0434\u0440"
   m_TagString: Untagged
@@ -822,6 +823,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224848800}
   m_Mesh: {fileID: -9111446733670104075, guid: 58e9ba33797dbb340ac229704dd6b3c3, type: 3}
+--- !u!114 &1224848806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224848800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f61ec5d871030c14a97d6c3a48656ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1932676077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,8 +1316,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8480494005373521138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 329e494ae8321cf469980d734c231dc4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff641ab65762e84eaf0e9255ab82905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabPortal: {fileID: 8063422537727930152, guid: 16ac35fc7ac998345b232d2010b6d371, type: 3}
-  positionPortal: {x: 0, y: 0, z: 10}
+  prefabPortal: {fileID: 8063422537727930152, guid: 16ac35fc7ac998345b232d2010b6d371,
+    type: 3}
+  positionPortal: {x: 0, y: 0, z: 3}

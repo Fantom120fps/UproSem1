@@ -6,6 +6,9 @@ public class TurretEnemy : MonoBehaviour, IEnemyAttack
 {
     public void Attack()
     {
-        Debug.Log("ypypypypyptyyttyyt");
+        Debug.Log("pypypypypypypypyptytytytyytytytyt");
     }
+
+    
 }
+ 

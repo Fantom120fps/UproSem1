@@ -8,11 +8,11 @@ public class RobotMechanic : MonoBehaviour, IRobot
 
     public void Greeting()
     {
-        Debug.Log("Привет! я персональный механик, а ты мой дружище");
+        Debug.Log("Привет! я персоальный механик, а ты мой дружище!");
     }
 
     public void Use()
     {
-        Debug.Log("Я что-то делаю");
+        Debug.Log("Что вы хотите, чтобы я починил?");
     }
 }

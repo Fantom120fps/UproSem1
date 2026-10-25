@@ -24,6 +24,6 @@ public class Brush : MonoBehaviour, ITool
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out RaycastHit hit))
-            hit.collider.GetComponent<IBuildingBlock>()?.ColorReset();
+                hit.collider.GetComponent<IBuildingBlock>()?.ColorReset();
     }
 }

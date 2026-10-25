@@ -5,13 +5,10 @@ using UnityEngine.UI;
 
 public class BtnObjPanel : ObjectPanelInfo
 {
-
     [SerializeField]
     private Button btnLevelUp;
-
-    private void Awake()
+    protected override void Awake()
     {
-
         base.Awake();
         btnLevelUp.onClick.AddListener(() =>
         {

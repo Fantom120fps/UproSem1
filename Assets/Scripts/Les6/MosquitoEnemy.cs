@@ -5,7 +5,7 @@ using UnityEngine;
 public class MosquitoEnemy : MonoBehaviour, IEnemy
 {
     Rigidbody _rb;
-    private float dist = 1;
+    private float dist = 0;
     private int cof = 1;
     private void Start()
     {
@@ -15,10 +15,10 @@ public class MosquitoEnemy : MonoBehaviour, IEnemy
     {
         dist += Time.fixedDeltaTime * 10 * cof;
 
-        if(Mathf.Abs(dist) > 5)
+        if (Mathf.Abs(dist) > 5)
         {
             cof *= -1;
-            dist = 0; 
+            dist = 0;
         }
         _rb.velocity = Vector3.up * dist;
     }

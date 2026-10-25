@@ -14,9 +14,9 @@ public class ObjectPanelInfo : MonoBehaviour
     private Sprite spriteObject;
     [SerializeField]
     private string nameObject;
-    
+   
 
-    public void Awake()
+    protected virtual void Awake()
     {
         imageObject.sprite = spriteObject;
         textObject.text = nameObject;

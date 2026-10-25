@@ -10,7 +10,7 @@ public class PlayerTakeTools : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (Input.GetKey(KeyCode.E))
-            if (GetComponent<ITool>() == null)
+            if (GetComponentInChildren<ITool>() == null)
                 other.GetComponent<ITool>()?.Take(position.localPosition, transform);
     }
 }
